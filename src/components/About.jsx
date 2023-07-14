@@ -6,7 +6,7 @@ const About = () => {
         <section id="about" className="h-[500px]">
             <SectionTitle title = "Sobre mim" />
             <div className="flex m-auto w-[85%] rounded-[10px]">
-                <img src={Foto} alt="Foto pessoal" className="w-[280px] h-[350px] ml-[70px]"/>
+                <img src={Foto} alt="Foto pessoal" className="w-[280px] h-[350px]"/>
                 <div className="bg-[#353535] px-[10px]">
                     <h3 className="text-4xl text-[#00B3FF] my-[20px]">Quem Sou</h3>
 
