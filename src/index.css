@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Josefin";
+  src: url(./assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #1E1E1E;
+  color: #ffff;
+  font-family: "Josefin", sans-serif;
+}
