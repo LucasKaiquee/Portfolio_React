@@ -1,6 +1,6 @@
 const Navbar = () => {
     return(
-        <nav className="flex justify-evenly w-full text-xl bg-[#1E1E1E] font-bold text-lg fixed p-3 top-0">
+        <nav className="flex justify-evenly w-full text-xl bg-[#1E1E1E] font-bold text-lg fixed p-3 top-0 z-10">
             <p className="text-[#00B3FF]">LucasKaique</p>
             <ul className="flex list-none justify-evenly gap-10">
                 <li className="">Sobre</li>
