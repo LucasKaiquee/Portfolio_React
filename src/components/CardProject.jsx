@@ -27,9 +27,9 @@ const CardProject = ({imgProjectD, imgProjectM, urlLink, urlDemo, description, t
             </div>
             
             <div className="flex gap-5">
-                <ButtonRedes  urlLink = {urlLink}  nameRede = {githubIcon} classButton="border border-[#00B3FF] h-[40px] w-[100px] rounded-[10px] flex justify-center items-center font-bold text-[#00B3FF]"/>
+                <ButtonRedes  urlLink = {urlLink}  nameRede = {githubIcon} classButton="border border-[#00B3FF] h-[40px] w-[100px] rounded-[10px] flex justify-center items-center font-bold text-[#00B3FF] text-2xl"/>
 
-                <ButtonRedes  urlLink = {urlDemo}  nameRede = {linkIcon} classButton="bg-[#00B3FF] h-[40px] w-[100px] rounded-[10px] flex justify-center items-center font-bold text-black"/>
+                <ButtonRedes  urlLink = {urlDemo}  nameRede = {linkIcon} classButton="bg-[#00B3FF] h-[40px] w-[100px] rounded-[10px] flex justify-center items-center font-bold text-black text-2xl"/>
             </div>
 
         </div>

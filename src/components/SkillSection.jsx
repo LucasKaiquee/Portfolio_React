@@ -18,7 +18,7 @@ const SkillSection = () => {
     ] 
 
     return(
-        <section className="">
+        <section id="skill">
             <SectionTitle title = "Competências"/>
             <div className="m-auto bg-[#353535] flex justify-center items-center py-10 gap-10">
                 <div className="basis-[40%]">
