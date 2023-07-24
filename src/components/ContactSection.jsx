@@ -1,5 +1,6 @@
 import SectionTitle from "./SectionTitle"
 import ButtonRedes from "./ButtonRedes"
+import Form from "./Form"
 
 import { FaInstagram } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
@@ -27,10 +28,12 @@ const ContactSection = () => {
     return (
         <section id="contact">
             <SectionTitle title="Contatos" />
-            <div className="w-[80%] bg-[#353535] m-auto h-[400px] mb-[50px] flex items-center">
-                <div className="bg-[orange] w-[30%] h-[380px] ">
-
+            <div className="w-[80%] bg-[#353535] m-auto h-[100%] mb-[50px] flex items-center">
+                <div className="border-r-4 border-[#00B3FF] p-5 my-5 pr-20">
+                    <h3 className="text-2xl">Envie uma <span className="text-[#00B3FF]">Menssagem</span></h3>
+                   <Form /> 
                 </div>
+                
 
                 <div className="">
                     <h2 className="text-[#00B3FF] text-5xl p-3 text-1xl">Olá<span className="text-white">.</span></h2>
