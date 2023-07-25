@@ -14,3 +14,11 @@
   color: #ffff;
   font-family: "Josefin", sans-serif;
 }
+
+input, textarea {
+  @apply bg-[#1E1E1E] rounded-[5px] p-2;
+}
+
+textarea {
+  @apply h-[150px] 
+}
