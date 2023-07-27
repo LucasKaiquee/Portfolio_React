@@ -10,7 +10,7 @@ const Form = () => {
     const errorValidation = "border border-[red]"
 
     return (
-        <form action="#contact" method="POST" name="contact" className="flex flex-col gap-2 w-[250px] mt-2" data-netlify="true">
+        <form method="POST" name="contact" className="flex flex-col gap-2 w-[250px] mt-2" data-netlify="true">
 
             <input 
                 type="text" 
