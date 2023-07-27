@@ -10,7 +10,7 @@ const Form = () => {
     const errorValidation = "border border-[red]"
 
     return (
-        <form method="POST" name="contact" className="flex flex-col gap-2 w-[250px] mt-2" data-netlify="true">
+        <form name="contact" netlify className="flex flex-col gap-2 w-[250px] mt-2">
 
             <input 
                 type="text" 
@@ -44,7 +44,7 @@ const Form = () => {
                 {...register('textArea')}>
             </textarea>
 
-            <button onClick={() => handleSubmit(onSubmit)()} type="submit" className="bg-[#00B3FF] text-black font-bold rounded-[5px] py-2">Enviar</button>
+            <button type="submit" className="bg-[#00B3FF] text-black font-bold rounded-[5px] py-2">Enviar</button>
         </form>
     )
 }
