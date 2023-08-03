@@ -1,16 +1,23 @@
+import axios from "axios";
 import {useForm} from "react-hook-form"
 
 const Form = () => {
     const { register, handleSubmit, formState: {errors} } = useForm()
 
-    const onSubmit = (data) => {
-        console.log(data)
-    }
+    const onSubmit = async (data) => {
+        try {
+          const response = await axios.post('https://formsubmit.co/ajax/lucaskaique743@gmail.com', data);
+          console.log('Resposta da API:', response.data);
+        } catch (error) {
+          console.error('Erro ao enviar o formulário:', error);
+        }
+      };
 
     const errorValidation = "border border-[red]"
 
     return (
-        <form name="contact" netlify className="flex flex-col gap-2 w-[250px] mt-2">
+
+        <div className="flex flex-col gap-2 w-[250px] mt-2">
 
             <input 
                 type="text" 
@@ -35,7 +42,7 @@ const Form = () => {
             )}
 
             <textarea 
-                name="" 
+                name="message" 
                 id="" 
                 cols="30" 
                 rows="10" 
@@ -44,8 +51,8 @@ const Form = () => {
                 {...register('textArea')}>
             </textarea>
 
-            <button type="submit" className="bg-[#00B3FF] text-black font-bold rounded-[5px] py-2">Enviar</button>
-        </form>
+            <button onClick={() => handleSubmit(onSubmit)()} className="bg-[#00B3FF] text-black font-bold rounded-[5px] py-2">Enviar</button>
+        </div>
     )
 }
 
