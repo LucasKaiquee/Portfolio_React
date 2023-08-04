@@ -65,7 +65,7 @@ const ProjectSection = () => {
                 ))}
             </div>
 
-            <p className="text-center py-10 text-1xl">
+            <p className="text-center py-10 text-xl sm:text-base sm:px-5">
                 Esses são alguns dos projetos que desenvolvi durante meus estudos no front-end e durante a faculdade, para acessar mais projetos confira meu <a href="https://github.com/LucasKaiquee" className="text-[#00B3FF]">GitHub...</a> 
             </p>
         </section>

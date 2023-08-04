@@ -51,7 +51,7 @@ const Form = () => {
                 {...register('textArea')}>
             </textarea>
 
-            <button onClick={() => handleSubmit(onSubmit)()} className="bg-[#00B3FF] text-black font-bold rounded-[5px] py-2">Enviar</button>
+            <button onClick={() => handleSubmit(onSubmit)()} className="bg-[#00B3FF] text-black font-bold rounded-[5px] py-2 hover:scale-125 ease-out duration-300">Enviar</button>
         </div>
     )
 }
