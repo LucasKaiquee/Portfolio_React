@@ -9,7 +9,7 @@ const CardProject = ({imgProjectD, imgProjectM, urlLink, urlDemo, description, t
     const linkIcon = <FaLink />
 
     return(
-        <div className="w-[600px]">
+        <div className="w-[600px] sm:w-[350px]">
             <div className="w-[550px] bg-white rounded-[7px] border-4 border-[#000] sm:w-[300px]">
                 <img src={imgProjectD} alt="demonstração do projeto" className="w-[100%] h-[100%]" />
             </div>
@@ -17,7 +17,7 @@ const CardProject = ({imgProjectD, imgProjectM, urlLink, urlDemo, description, t
             <div className="flex h-[130px]">
                 <div className="w-[100%]">
                     <p className="text-1xl mt-3 sm:text-sm">{description}</p>
-                    <p className="text-1xl text-[#00B3FF] font-bold py-3 sm:text-sm">{techs}</p>
+                    <span className="flex gap-4 text-[#00B3FF] text-3xl font-bold py-3 sm:text-xl">{techs}</span>
                 </div>
 
                 <div className="h-[300px] w-[180px] border-4 border-[#000] rounded-[7px] relative top-[-220px] sm:w-[100px] sm:h-[180px] sm:top-[-100px]">
@@ -25,8 +25,9 @@ const CardProject = ({imgProjectD, imgProjectM, urlLink, urlDemo, description, t
                 </div>
                 
             </div>
-            
+
             <div className="flex gap-5">
+
                 <ButtonRedes  urlLink = {urlLink}  nameRede = {githubIcon} classButton="border border-[#00B3FF] h-[40px] w-[100px] rounded-[10px] flex justify-center items-center font-bold text-[#00B3FF] text-2xl sm:h-[30px] sm:w-[90px] sm:text-lg"/>
 
                 <ButtonRedes  urlLink = {urlDemo}  nameRede = {linkIcon} classButton="bg-[#00B3FF] h-[40px] w-[100px] rounded-[10px] flex justify-center items-center font-bold text-black text-2xl sm:h-[30px] sm:w-[90px] sm:text-lg"/>
