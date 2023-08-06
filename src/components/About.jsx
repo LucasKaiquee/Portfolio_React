@@ -6,7 +6,7 @@ const About = () => {
         <section id="about" className="h-[500px] sm:h-full">
             <SectionTitle title = "Sobre mim" /> 
             <div className="flex m-auto w-[85%] sm:flex-col-reverse sm:items-center sm:bg-[#353535]">
-                <img src={Foto} alt="Foto pessoal" className="w-[280px] h-[350px] sm:rounded-[5px] sm:w-[120px] sm:h-[190px] sm:mb-[20px]"/>
+                <img src={Foto} alt="Foto pessoal" className="w-[280px] h-[350px] sm:rounded-[5px] sm:w-[140px] sm:h-[190px] sm:mb-[20px]"/>
                 <div className="bg-[#353535] px-[10px]">
                     <h3 className="text-4xl text-[#00B3FF] my-[20px] sm:text-2xl">Quem Sou</h3>
 

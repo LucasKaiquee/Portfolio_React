@@ -35,7 +35,7 @@ const ContactSection = () => {
                 </div>
                 
 
-                <div className="sm:border-b-4 sm:border-[#00B3FF] ">
+                <div className="sm:border-b sm:pb-3 sm:border-[#00B3FF] ">
                     <h2 className="text-[#00B3FF] text-5xl p-3 text-1xl sm:text-2xl">Olá<span className="text-white">.</span></h2>
 
                     <p className="p-3 sm:text-sm">Entre em contato comigo, Estou aberto a oportunidades de estágio ou para vagas de junior e também para fazer network e trocar experiências sobre programação. Abaixo você encontra o link das minhas redes socias.</p>
