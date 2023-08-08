@@ -15,6 +15,11 @@
   font-family: "Josefin", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
 input, textarea {
   @apply bg-[#1E1E1E] rounded-[5px] p-2;
 }
