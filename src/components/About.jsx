@@ -3,10 +3,10 @@ import Foto from "../assets/imgs/Foto1.png"
 
 const About = () => {
     return(
-        <section id="about" className="h-[500px] sm:h-full">
+        <section id="about" className="h-[500px] md:h-full">
             <SectionTitle title = "Sobre mim" /> 
-            <div className="flex m-auto w-[85%] sm:flex-col-reverse sm:items-center sm:bg-[#353535]">
-                <img src={Foto} alt="Foto pessoal" className="w-[280px] h-[350px] sm:rounded-[5px] sm:w-[140px] sm:h-[190px] sm:mb-[20px]"/>
+            <div className="flex m-auto w-[85%] md:flex-col-reverse md:items-center md:bg-[#353535]">
+                <img src={Foto} alt="Foto pessoal" className="w-[280px] h-[350px] sm:rounded-[5px] md:w-[140px] md:h-[190px] md:mb-[20px]"/>
                 <div className="bg-[#353535] px-[10px]">
                     <h3 className="text-4xl text-[#00B3FF] my-[20px] sm:text-2xl">Quem Sou</h3>
 

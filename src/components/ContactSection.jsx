@@ -28,14 +28,14 @@ const ContactSection = () => {
     return (
         <section id="contact">
             <SectionTitle title="Contatos" />
-            <div className="w-[80%] bg-[#353535] m-auto h-[100%] mb-[50px] flex items-center sm:flex-col-reverse">
-                <div className="border-r-4 border-[#00B3FF] p-5 my-5 pr-20 sm:border-0 sm:p-0">
+            <div className="w-[80%] bg-[#353535] m-auto h-[100%] mb-[50px] flex items-center md:flex-col-reverse">
+                <div className="border-r-4 border-[#00B3FF] p-5 my-5 pr-20 md:border-0 md:p-0">
                     <h3 className="text-2xl">Envie uma <span className="text-[#00B3FF]">Menssagem</span></h3>
                    <Form /> 
                 </div>
                 
 
-                <div className="sm:border-b sm:pb-3 sm:border-[#00B3FF] ">
+                <div className="md:border-b md:pb-3 md:border-[#00B3FF]">
                     <h2 className="text-[#00B3FF] text-5xl p-3 text-1xl sm:text-2xl">Olá<span className="text-white">.</span></h2>
 
                     <p className="p-3 sm:text-sm">Entre em contato comigo, Estou aberto a oportunidades de estágio ou para vagas de junior e também para fazer network e trocar experiências sobre programação. Abaixo você encontra o link das minhas redes socias.</p>

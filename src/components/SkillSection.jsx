@@ -64,12 +64,12 @@ const SkillSection = () => {
       return (
         <section id="skill">
             <SectionTitle title="Competências" />
-            <div className="m-auto bg-[#353535] flex justify-center items-center py-10 gap-10 sm:flex-col">
+            <div className="m-auto bg-[#353535] flex justify-center items-center py-10 gap-10 md:flex-col md:p-5">
                 <div className="basis-[40%] sm:ml-[10px]">
                     <h3 className="text-3xl text-[#00B3FF] font-bold my-5 sm:text-2xl ease-out duration-300">
                         {selectedTech !== null ? tech[selectedTech].name : "Skills"}
                     </h3>
-                    <p className="mt-[20px] text-2xl my-5 sm:text-lg ease-out duration-300">
+                    <p className="mt-[20px] text-2xl my-5 sm:text-lg ease-out duration-300 h-[50px]">
                         {selectedTech !== null ? tech[selectedTech].description : "Que tal interagir com uma tecnologia ?"}
                     </p>
                     <p className="sm:text-xs">
@@ -78,7 +78,7 @@ const SkillSection = () => {
                     </p>
                 </div>
     
-                <div className="flex flex-wrap gap-3 basis-[30%] sm:justify-center">
+                <div className="flex flex-wrap gap-3 basis-[30%] md:justify-center">
                     {iconList.map((item, index) => (
                         <CardSkill
                             key={index}
