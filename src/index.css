@@ -27,3 +27,7 @@ input, textarea {
 textarea {
   @apply h-[150px] 
 }
+
+section {
+  @apply max-w-[1400px] m-auto;
+}
