@@ -71,7 +71,7 @@ const ProjectSection = () => {
         <section id="projects">
             <SectionTitle title="Projetos" />
 
-            <div className="flex justify-center my-10 m-auto gap-20 flex-wrap">
+            <div className="flex justify-center my-10 m-auto gap-10 flex-wrap lg:flex-col lg:items-center">
                 {projects.map((project, index) => (
                     <CardProject 
                         key={index}

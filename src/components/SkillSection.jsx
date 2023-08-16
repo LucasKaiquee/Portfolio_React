@@ -64,8 +64,8 @@ const SkillSection = () => {
       return (
         <section id="skill">
             <SectionTitle title="Competências" />
-            <div className="bg-[#353535] flex justify-center items-center py-10 md:flex-col md:p-5">
-                <div className="basis-[40%] sm:ml-[10px]">
+            <div className="bg-[#353535] flex justify-center items-center py-10 lg:flex-col md:p-5">
+                <div className="basis-[40%] lg:ml-[10px]">
                     <h3 className="text-3xl text-[#00B3FF] font-bold my-5 sm:text-2xl ease-out duration-300">
                         {selectedTech !== null ? tech[selectedTech].name : "Skills"}
                     </h3>
@@ -78,7 +78,7 @@ const SkillSection = () => {
                     </p>
                 </div>
     
-                <div className="flex flex-wrap gap-3 basis-[40%] justify-end md:justify-center">
+                <div className="flex flex-wrap gap-3 basis-[40%] justify-end lg:justify-center lg:mt-[30px] lg:w-[70%]">
                     {iconList.map((item, index) => (
                         <CardSkill
                             key={index}
