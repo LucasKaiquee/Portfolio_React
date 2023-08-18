@@ -78,7 +78,7 @@ const SkillSection = () => {
                     </p>
                 </div>
     
-                <div className="flex flex-wrap gap-3 basis-[40%] justify-end lg:justify-center lg:mt-[30px] lg:w-[70%]">
+                <div className="flex flex-wrap gap-3 basis-[40%] justify-end lg:justify-center lg:mt-[30px] lg:w-[70%] max-w-[512px]">
                     {iconList.map((item, index) => (
                         <CardSkill
                             key={index}
