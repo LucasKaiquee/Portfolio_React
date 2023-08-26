@@ -5,8 +5,8 @@ const About = () => {
     return(
         <section id="about" className="md:h-full">
             <SectionTitle title = "Sobre mim" /> 
-            <div className="flex m-auto w-[85%] md:flex-col-reverse md:items-center md:bg-[#353535]">
-                <img src={Foto} alt="Foto pessoal" className="w-[230px] h-[300px] sm:rounded-[5px] md:w-[140px] md:h-[190px] md:mb-[20px]"/>
+            <div className="flex m-auto w-[80%] md:flex-col-reverse md:items-center md:bg-[#353535]">
+                <img src={Foto} alt="Foto pessoal" className="w-[230px] h-[300px] sm:rounded-[5px] md:mt-7 md:w-[140px] md:h-[190px] md:mb-[20px]"/>
                 <div className="bg-[#353535] px-[10px]">
                     <h3 className="text-4xl text-[#00B3FF] my-[20px] sm:text-2xl lg:text-3xl">Quem Sou</h3>
 
