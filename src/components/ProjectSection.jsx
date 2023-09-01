@@ -53,7 +53,7 @@ const ProjectSection = () => {
             imgProjectD: project3,
             imgProjectM: project3M,
             urlLink: "https://github.com/LucasKaiquee/Interactive-card",
-            urlDemo: "https://lucaskaiquee.github.io/Projeto_LM/",
+            urlDemo: "https://lucaskaiquee.github.io/Interactive-card/",
             description: "Card interativo que permite ao usuário preencher um formulário, que será mostrado no cartão.",
             techs: [techIcon[2], techIcon[0], techIcon[1]]
         },
