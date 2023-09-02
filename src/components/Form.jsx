@@ -12,7 +12,7 @@ const Form = () => {
             const response = await axios.post('https://formsubmit.co/ajax/lucaskaique743@gmail.com', data);
             const status = response.data
             console.log('Resposta da API:', status);
-            if(status.success === "false"){
+            if(status.success === "true"){
                 MySwal.fire({
                     title: <strong>Obrigado !</strong>,
                     html: <i>Recebi sua menssagem ...</i>,
