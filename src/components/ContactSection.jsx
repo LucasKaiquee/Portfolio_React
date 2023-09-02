@@ -38,7 +38,7 @@ const ContactSection = () => {
                 <div className="md:border-b md:pb-3 md:border-[#00B3FF]">
                     <h2 className="text-[#00B3FF] text-5xl p-3 text-1xl sm:text-2xl">Olá<span className="text-white">.</span></h2>
 
-                    <p className="p-3 sm:text-sm">Entre em contato comigo, Estou aberto a oportunidades de estágio ou para vagas de junior e também para fazer network e trocar experiências sobre programação. Abaixo você encontra o link das minhas redes socias.</p>
+                    <p className="text-md p-3 sm:text-sm">Fique à vontade para entrar em contato comigo. Estou aberto a oportunidades de estágio, vagas de nível júnior e também para estabelecer conexões e compartilhar experiências relacionadas à programação. Abaixo, você encontra o link das minhas redes sociais.</p>
 
                     <div className="flex gap-4 p-3 sm:justify-center">
                         {button.map((button, index) =>(

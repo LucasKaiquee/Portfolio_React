@@ -72,9 +72,8 @@ const SkillSection = () => {
                     <p className="mt-[20px] text-2xl my-5 sm:text-lg ease-out duration-300 h-[50px]">
                         {selectedTech !== null ? tech[selectedTech].description : "Que tal interagir com uma tecnologia ?"}
                     </p>
-                    <p className="sm:text-xs">
-                        Essas são as tecnologias que tenho experiencia e fazem parte da minha stack como desenvolvedor Fornt - end.
-                        Pretendo aumentar ainda mais minhas habilidades tanto com essas tecnologias, bem como novas tecnologias que se fizerem necessarias ao longo da minha trajetoria como dev.
+                    <p className="text-md py-2 sm:text-xs">
+                      Estou constantemente evoluindo e aprendendo cada vez mais. Minha graduação tem sido uma peça fundamental nesse processo, pois, enquanto me aprofundo no mundo do desenvolvimento front-end, a faculdade me proporciona a oportunidade de adquirir conhecimentos valiosos, não apenas técnicos, mas também em comunicação e trabalho em equipe, aspectos essenciais para me tornar um desenvolvedor completo.
                     </p>
                 </div>
     
