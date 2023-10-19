@@ -11,7 +11,7 @@ const CardProject = ({imgProjectD, imgProjectM, urlLink, urlDemo, description, t
     return(
         <div className="w-[500px] sm:w-[350px]">
             <div className="w-[450px] bg-white rounded-[7px] border-4 border-[#000] sm:w-[300px]">
-                <img src={imgProjectD} alt="demonstração do projeto" className="w-[100%] h-[100%]" />
+                <img src={imgProjectD} loading="lazy" alt="demonstração do projeto" className="w-[100%] h-[100%]" />
             </div>
 
             <div className="flex h-[130px]">

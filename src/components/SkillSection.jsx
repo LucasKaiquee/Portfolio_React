@@ -1,9 +1,11 @@
 import SectionTitle from "./SectionTitle"
 import CardSkill from "./CardSkill"
 
+import curriculo from '../../public/Currículo_Lucas_Kaique_estágio_.pdf'
+
 import { useState } from "react";
 
-import { FaReact, FaJs, FaCss3, FaHtml5, FaFigma, FaSass, FaGitAlt } from "react-icons/fa"
+import { FaReact, FaJs, FaCss3, FaHtml5, FaFigma, FaSass, FaGitAlt, FaRegFilePdf } from "react-icons/fa"
 import {BiLogoTypescript, BiLogoTailwindCss} from "react-icons/bi"
 
 const SkillSection = () => {
@@ -65,7 +67,7 @@ const SkillSection = () => {
         <section id="skill">
             <SectionTitle title="Competências" />
             <div className="bg-[#353535] flex justify-center items-center py-10 lg:flex-col md:p-5">
-                <div className="basis-[40%] lg:ml-[10px]">
+                <div className="basis-[40%] flex-col lg:ml-[10px]">
                     <h3 className="text-3xl text-[#00B3FF] font-bold my-5 sm:text-2xl ease-out duration-300">
                         {selectedTech !== null ? tech[selectedTech].name : "Skills"}
                     </h3>
@@ -73,8 +75,11 @@ const SkillSection = () => {
                         {selectedTech !== null ? tech[selectedTech].description : "Que tal interagir com uma tecnologia ?"}
                     </p>
                     <p className="text-md py-2 sm:text-xs">
-                      Estou constantemente evoluindo e aprendendo cada vez mais. Minha graduação tem sido uma peça fundamental nesse processo, pois, enquanto me aprofundo no mundo do desenvolvimento front-end, a faculdade me proporciona a oportunidade de adquirir conhecimentos valiosos, não apenas técnicos, mas também em comunicação e trabalho em equipe, aspectos essenciais para me tornar um desenvolvedor completo.
+                      Estou constantemente evoluindo e aprendendo cada vez mais. Minha graduação tem sido uma peça fundamental nesse processo, pois, enquanto me aprofundo no mundo do front-end, a faculdade me proporciona a oportunidade de adquirir conhecimentos valiosos em diverças áreas da tecnologia.
                     </p>
+
+                    <a href={curriculo} className="text-[#00B3FF] border border-[#00B3FF] gap-2 h-[40px] w-[170px] rounded-[10px] flex justify-center items-center mt-4 font-bold lg:self-center sm:w-[100px] sm:text-xs">Currículo <FaRegFilePdf/></a>
+
                 </div>
     
                 <div className="flex flex-wrap gap-3 basis-[40%] justify-end lg:justify-center lg:mt-[30px] lg:w-[70%] max-w-[512px]">
