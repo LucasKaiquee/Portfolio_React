@@ -30,4 +30,18 @@ textarea {
 
 section {
   @apply max-w-[1400px] m-auto;
+  animation: appear 2s linear;
+  animation-timeline: view();
+  animation-range: cover 0% cover 30%;
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
