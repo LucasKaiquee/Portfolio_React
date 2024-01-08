@@ -1,10 +1,13 @@
 import ButtonRedes from "./ButtonRedes"
+import curriculo from '../../public/Currículo_Lucas_Kaique_estágio_DEV.pdf'
+import {FaRegFilePdf} from "react-icons/fa"
 
 const Header = () => {
     const urlLinkedin = "https://www.linkedin.com/in/lucaskaique/"
     const urlGithub = "https://github.com/LucasKaiquee"
 
-    const classButton = "border border-[#00B3FF] h-[40px] w-[170px] rounded-[10px] flex justify-center items-center font-bold sm:w-[100px] sm:text-xs"
+
+    const classButton = "border border-[#00B3FF] h-[40px] w-[140px] rounded-[10px] flex justify-center items-center font-bold sm:w-[100px] sm:text-xs"
 
     return (
         <header className="bg-background-main w-full h-[100vh] bg-cover bg-center flex flex-col justify-center">
@@ -15,7 +18,8 @@ const Header = () => {
 
                 <div className="flex gap-7 mt-5 sm:gap-3 md:justify-center">
                     <ButtonRedes urlLink = {urlLinkedin}  nameRede = "LinkedIn" classButton={classButton}/>
-                    <ButtonRedes urlLink={urlGithub} nameRede= "GitHub" classButton={classButton + " bg-[#00B3FF] text-[#1E1E1E]"}/>
+                    <ButtonRedes urlLink={urlGithub} nameRede= "GitHub" classButton={classButton}/>
+                    <ButtonRedes urlLink={curriculo} nameRede={"Currículo"} classButton={classButton} />
                 </div>
             </div>
         </header>

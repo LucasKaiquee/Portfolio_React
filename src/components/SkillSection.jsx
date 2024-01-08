@@ -1,7 +1,7 @@
 import SectionTitle from "./SectionTitle"
 import CardSkill from "./CardSkill"
 
-import curriculo from '../../public/Currículo_Lucas_Kaique_estágio_.pdf'
+// import curriculo from '../../public/Currículo_Lucas_Kaique_estágio_.pdf'
 
 import { useState } from "react";
 
@@ -78,7 +78,7 @@ const SkillSection = () => {
                       Estou constantemente evoluindo e aprendendo cada vez mais. Minha graduação tem sido uma peça fundamental nesse processo, pois, enquanto me aprofundo no mundo do front-end, a faculdade me proporciona a oportunidade de adquirir conhecimentos valiosos em diverças áreas da tecnologia.
                     </p>
 
-                    <a href={curriculo} className="text-[#00B3FF] border border-[#00B3FF] gap-2 h-[40px] w-[170px] rounded-[10px] flex justify-center items-center mt-4 font-bold lg:self-center sm:w-[100px] sm:text-xs hover:scale-125 ease-out duration-300">Currículo <FaRegFilePdf/></a>
+                    {/* <a href={curriculo} className="text-[#00B3FF] border border-[#00B3FF] gap-2 h-[40px] w-[170px] rounded-[10px] flex justify-center items-center mt-4 font-bold lg:self-center sm:w-[100px] sm:text-xs hover:scale-125 ease-out duration-300">Currículo <FaRegFilePdf/></a> */}
 
                 </div>
     
