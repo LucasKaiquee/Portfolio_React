@@ -3,14 +3,14 @@ import { FaReact, FaJs, FaCss3, FaHtml5, FaSass} from "react-icons/fa"
 
 import {BiLogoTailwindCss} from "react-icons/bi"
 
-import project1 from "../assets/imgs/movie.png"
-import project1M from "../assets/imgs/MovieVerseM.png"
+import project1 from "../assets/imgs/MVAd.png"
+import project1M from "../assets/imgs/MVm.png"
 import project2 from "../assets/imgs/Task.png"
 import project2M from "../assets/imgs/TaskM.png"
 import project3 from "../assets/imgs/card.png"
 import project3M from "../assets/imgs/CardM.png"
-import project4 from "../assets/imgs/Securitas.png"
-import project4M from "../assets/imgs/SecuritasM.png"
+import project4 from "../assets/imgs/SEd.png"
+import project4M from "../assets/imgs/SEm.png"
 
 const techIcon = [ 
     <FaHtml5 />, 
@@ -27,7 +27,7 @@ const projects = [
         imgProjectM: project1M,
         urlLink: "https://github.com/LucasKaiquee/Movieverse",
         urlDemo: "https://movieversee.netlify.app/",
-        description: "Usando a API OMDB, o Movie Verse é capaz de trazer informações sobre filmes e series.",
+        description: "Usando a API TMDB, o Movie Verse é capaz de trazer informações sobre filmes e series.",
         techs: [techIcon[3], techIcon[2], techIcon[1], techIcon[0]]
     },
     {
@@ -49,10 +49,10 @@ const projects = [
     {
         imgProjectD: project4,
         imgProjectM: project4M,
-        urlLink: "https://github.com/LucasKaiquee/Projeto_LM",
-        urlDemo: "https://lucaskaiquee.github.io/Projeto_LM/",
-        description:"Portal para uma empresa fictícia de tecnologia e segurança digital, apaixonada por conectar pessoas.",
-        techs: [techIcon[0], techIcon[1], techIcon[5]]
+        urlLink: "https://github.com/LucasKaiquee/Projeto_LS",
+        urlDemo: "https://environmentsecuritas.netlify.app/",
+        description:"Portal para uma empresa fictícia de tecnologia e educação ambiental.",
+        techs: [techIcon[0], techIcon[1], techIcon[2]]
     }
 ]
 

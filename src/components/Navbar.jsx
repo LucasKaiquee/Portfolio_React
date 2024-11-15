@@ -3,29 +3,29 @@ import { useState, useEffect} from "react"
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
     useEffect(() => {
       // Função que atualiza a largura da tela quando a janela for redimensionada
       const updateWindowWidth = () => {
-        setWindowWidth(window.innerWidth);
-      };
+        setWindowWidth(window.innerWidth)
+      }
   
       // Adiciona um event listener para o evento de redimensionamento
-      window.addEventListener('resize', updateWindowWidth);
+      window.addEventListener('resize', updateWindowWidth)
   
       // Remove o event listener quando o componente é desmontado
       return () => {
         window.removeEventListener('resize', updateWindowWidth);
-      };
-    }, []);
+      }
+    }, [])
   
     useEffect(() => {
       // Verifica se a largura da tela atende ao critério para mostrar o menu
       if (windowWidth <= 850) {
         setShowMenu(true);
       } else setShowMenu(false)
-    }, [windowWidth]);
+    }, [windowWidth])
 
     return(
         <nav className="flex justify-around w-full text-xl bg-[#1E1E1E] font-bold text-lg fixed p-3 top-0 z-10 border-b-2 border-[#00B3FF]">
